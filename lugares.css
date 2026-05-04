@@ -6,13 +6,13 @@ h1{
     color: rgb(27, 29, 29);
     font-size: 48px;
     font-weight: bold;
-    background-color: rgba(119, 170, 174, 0.763);
+    background: linear-gradient(rgba(0, 255, 255, 0.752), rgba(27, 128, 211, 0.752), rgba(0, 255, 255, 0.752));
     
 }
 .barra-nav{ 
     width: 100%;
     height: 7vh;
-    background-color: rgba(63, 122, 115, 0.795);
+    background-color: rgba(12, 199, 177, 0.795);
 }
 ul{
     display: flex;
@@ -24,7 +24,7 @@ li{
     list-style: none;
 }
 ul li a{
-    color: rgb(155, 205, 238);
+    color: rgb(30, 58, 78);
 }
 #bio{
     font-size: 40px;
@@ -47,7 +47,7 @@ ul li a{
 }
 
 .bloque{
-    background-color: rgba(121, 160, 155, 0.819);
+    background: linear-gradient(aqua, rgb(27, 128, 211), rgb(27, 128, 211), aqua);
     padding: 60px;
     flex: 1;
     text-align: center;

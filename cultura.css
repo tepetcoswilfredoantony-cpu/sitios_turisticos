@@ -47,7 +47,7 @@ ul li a{
 }
 
 .bloque{
-    background-color: rgba(208, 180, 68, 0.614);
+    background: linear-gradient(rgba(255, 255, 0, 0.745), rgba(255, 166, 0, 0.745), rgba(255, 166, 0, 0.745), rgba(255, 255, 0, 0.745));
     padding: 60px;
     flex: 1;
     text-align: center;
