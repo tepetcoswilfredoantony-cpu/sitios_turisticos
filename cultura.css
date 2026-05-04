@@ -6,13 +6,13 @@ h1{
     color: rgb(18, 19, 19);
     font-size: 48px;
     font-weight: bold;
-    background-color: rgba(221, 160, 63, 0.79);
+    background-color: rgba(169, 86, 14, 0.79);
     
 }
 .barra-nav{ 
     width: 100%;
     height: 7vh;
-    background-color: rgba(196, 163, 29, 0.893);
+    background-color: rgba(218, 178, 19, 0.679);
 }
 ul{
     display: flex;
@@ -24,5 +24,41 @@ li{
     list-style: none;
 }
 ul li a{
-    color: rgb(136, 93, 8);
+    color: rgb(84, 15, 15);
 }
+#bio{
+    font-size: 40px;
+}
+.caja-bio{
+    margin: 0 auto;
+    width: 900px;
+}
+/* Selector Bio */
+#bio{
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px -2px 3px black;
+}
+.contenedor{
+    display: flex;
+    gap: 10px;
+}
+
+.bloque{
+    background-color: rgba(208, 180, 68, 0.614);
+    padding: 60px;
+    flex: 1;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.bloque img{
+    width: 40%;
+    height: 20%;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+
