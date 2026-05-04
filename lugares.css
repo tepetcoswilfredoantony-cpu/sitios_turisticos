@@ -26,3 +26,50 @@ li{
 ul li a{
     color: rgb(155, 205, 238);
 }
+#bio{
+    font-size: 40px;
+}
+.caja-bio{
+    margin: 0 auto;
+    width: 900px;
+}
+/* Selector Bio */
+#bio{
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px -2px 3px black;
+}
+.contenedor{
+    display: flex;
+    gap: 10px;
+}
+
+.bloque{
+    background-color: rgba(148, 144, 36, 0.663);
+    padding: 60px;
+    flex: 1;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.bloque img{
+    width: 25%;
+    height: 25%;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+.boton{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px;
+    background-color: chocolate;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.boton:hover{
+    background-color: #00cc00;
+}
+
